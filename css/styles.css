@@ -405,19 +405,19 @@ ul{
 }
 
 .twitter{
-    background-image: url('images/twitter.svg');
+    background-image: url('../images/twitter.svg');
 }
 
 .facebook{
-    background-image: url('images/facebook.svg');
+    background-image: url('../images/facebook.svg');
 }
 
 .instagram{
-    background-image: url('images/instagram.svg');
+    background-image: url('../images/instagram.svg');
 }
 
 .github{
-    background-image: url('images/github.svg');
+    background-image: url('../images/github.svg');
 }
 
 .contact-mail{
@@ -432,7 +432,7 @@ ul{
     height: 25px;
     font-family: 'Kalam',cursive;
     
-    background-image: url('images/envelope.svg');
+    background-image: url('../images/envelope.svg');
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -483,3 +483,4 @@ ul{
     border-radius: 10px;
     border-style: solid;
 }
+

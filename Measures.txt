@@ -1,0 +1,25 @@
+1) Percentage: Applied to the size of the parent elements
+Example: 
+<body>
+<div style="width:50%">
+	<div style="width:50%">
+		This Div width is the 50% of the 50% of body's width
+	</div>
+</div>
+
+2) em: Relative to the size of the nearest specified font, including the same element.
+Example:
+<nav style="font-size: 16px">
+	<ul style="font-size: 2em">
+		<li style="font-size: 1em">
+			<a href="" style="font-size:.5em padding: 2em"></a>
+		</li>
+	</ul>
+</nav>
+
+nav -> 16px
+ul -> 2em=32px
+li -> 1em=32px
+a -> .5em=16px (here the em goes to 32
+padding -> 2em = 32px
+
