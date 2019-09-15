@@ -19,7 +19,6 @@ h1{
     line-height: 1.5em;
     letter-spacing: 5px;
     color:white;
-    /* top right bottom left */
     margin: 100px 20px 70px 20px;
 }
 
@@ -36,35 +35,32 @@ ul{
     margin:0;
     padding:0;
     list-style: none;
-
-    /* border-color: #000000;
-    border-radius: 10px;
-    border-style: solid; */
 }
+
+/* ///////////////////////////////////////////// */
+/* ////////////////   HEADER   ///////////////// */
+/* ///////////////////////////////////////////// */
 
 .header{
     background-color: #252525;
-    /* border-color: #000000;
-    border-radius: 10px;
-    border-style: solid; */
-    height: 130px;
+    max-height: 130px;
+
     color:white;
+
     display:flex;
     justify-content: space-between;
-    /* background-image: url('images/Aldhair Vera Logo.png'); */
-    /* background-size: 15% 100%;
-    background-repeat: no-repeat;
-    background-position-x: left; 
-    background-position-y: center; */
 }
 
-.menu{
-    height: inherit;    
-}
-
-.header ol{
-    display:flex;
+.header-menu{
     height: inherit;
+
+}
+
+.header-element{
+    display:flex;
+    /* height: inherit; */
+    height: 100%;
+
     align-items: center;
 }
 
@@ -73,9 +69,6 @@ ul{
     margin-bottom: 10px;
     height: 20%;
 }
-
-/* .header-logo-image{
-} */
 
 .navBar{
     display:flex;
@@ -87,101 +80,78 @@ ul{
     align-content: center;
 }
 
-.link{
+.header-link{
     color:white;
     text-decoration: none;
+    /* max-width: 100px;
+    max-height: 50px; */
+
     width: 100px;
     height: 50px;
+
     flex-shrink: 0;
     font-size: 40px;
     margin: 10px;
     padding: 10px;
 }
 
+
+/* ///////////////////////////////////////////// */
+/* /////////////////   HERO   ////////////////// */
+/* ///////////////////////////////////////////// */
+
 .hero
 {
     height:500px;
     width:100%;
-    /* background-image:repeating-linear-gradient(to bottom right,#252525,#292929e0); */
     background-image:repeating-linear-gradient(to bottom right,#444444e0,black);
     background-repeat: no-repeat;
-    /* background-color: #292929e0; */
-    
-    /* width:99.6%;
-    border-color: #121212;
-    border-radius: 10px;
-    border-style: solid; */
-    
-    
-    /* width height */
-    /* background-size: 20% 90%; */
-    /*
-    background-image: url('images/Aldhair Vera.jpg');
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center; */
  
     display: flex;
     align-content: center;
     justify-content: center;
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
 }
 
 .hero-description{
-    /* color:#252525; */
     color:white;
     flex-shrink: 0;
 }
 
 .hero-image-container{
-    /* flex-shrink: 0; */
-    
     display: flex;
     height: inherit;
     width: inherit;
 
-    /* width: 100%; */
     justify-content:flex-end;
-    /* align-content: center; */
-
-    /* border-color: #121212;
-    border-radius: 10px;
-    border-style: solid; */
 }
 
 .hero-image{
     flex-shrink: 0;
-
-    /* width: 100%;
-    height: 100%; */
 
     width: 350px;
     height: 350px;
 
     margin-right: 25px;
     margin-top: 75px;
-    /*margin-bottom: 5%; */
     border-color: #121212;
     border-radius: 10px;
     border-style: solid;
 }
 
+/* ////////////////////////////////////////////////// */
+/* /////////////////   PORTFOLIO   ////////////////// */
+/* ////////////////////////////////////////////////// */
+
 .portfolio{
-    /* background-color: #f0f0f0; */
-    /* background-image:linear-gradient(to bottom right, rgb(104, 104, 104),#f0f0f0); */
     background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
     background-repeat: no-repeat;
 
     width: 99.65%;
     border-color: #000000;
-    /* border-width: 1px; */
     border-radius: 10px;
     border-style: solid;
 
     padding-bottom: 50px;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
 }
 
 .portfolio-title{
@@ -199,14 +169,6 @@ ul{
 }
 
 .project{
-    /* size type style */
-    /* border-top: 10px solid red;
-    border-bottom: 10px solid red;
-    border-left: 10px solid red;
-    border-right: 10px solid red; */
-    
-    /* border-width: 1px; */
-    /* background-color: white; */
     background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
     background-repeat: no-repeat;
 
@@ -215,10 +177,8 @@ ul{
     border-style: solid;
     
     margin:10px;
-    /* margin-bottom: 30px; */
     padding:10px;
     display: block;
-    /* border-top-left-radius: 50px; */
 }
 
 .project-description{
@@ -248,7 +208,8 @@ ul{
     justify-content: center;
     flex-shrink: 0;
 
-    background-color: #252525;
+    background-image:radial-gradient(rgb(70, 70, 70),#363636);
+    background-repeat: no-repeat;
 
     margin:10px;
     padding:20px;
@@ -263,9 +224,11 @@ ul{
     height: 350px;
 }
 
-.events{
+/* ////////////////////////////////////////////////// */
+/* /////////////////   EXPERIENCE   ///////////////// */
+/* ////////////////////////////////////////////////// */
+.experiences{
     width: 99.65%;
-    /* background-color: #f0f0f0; */
     background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
     background-repeat: no-repeat;
 
@@ -273,20 +236,23 @@ ul{
     border-radius: 10px;
     border-style: solid;
     
-    /* margin-top: 10px; */
-    /* margin-bottom: 10px; */
 }
 
-.event-set{
+.experience-set{
     display:flex;
     flex-wrap:wrap;
-    /* justify-content: center; */
     justify-content: space-evenly;
 
     align-content: center;
 }
 
-.event{
+.experience-title{
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.experience{
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -294,31 +260,29 @@ ul{
     justify-content: space-around;
 
     padding:10px;
-    /* width:25%; */
     margin:50px;
     margin-bottom: 30px;
 
     width: 400px;
     height: 600px;
 
-    background-color: white;
+    background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
+    background-repeat: no-repeat;
+
     border-color: #000000;
     border-radius: 10px;
     border-style: solid;
 }
 
-.event-title{
-    margin: 20px;
-    font-size: 50px;
-    text-align: center;
-}
 
-.event-image-container{
+.experience-image-container{
     display: flex;
     justify-content: center;
     flex-shrink: 0;
 
-    background-color: #363636;
+    background-image:radial-gradient(rgb(70, 70, 70),#363636);
+    background-repeat: no-repeat;
+
     margin:10px;
     padding:20px;
 
@@ -327,46 +291,43 @@ ul{
     border-style: solid;
 }
 
-.event ol{
+.experience ol{
     margin-left: 15px;
     padding:15px;
     list-style: decimal;
 }
 
-.event-image{
+.experience-image{
     width: 220px;
     height: 220px;
     object-fit: fill;
     flex-shrink: 0;
-
-    /* width: 75% ;
-    height: 45%; */
 }
 
-.event-image-Inart{
+.experience-image-Inart{
     width: 120px;
     height: 220px;
 }
 
-.event-subtitle{
+.experience-subtitle{
     margin: 10px;
     font-size: 35px;
     flex-shrink: 0;
 }
 
-.event-position{
+.experience-position{
     margin: 10px;
     font-size: 30px;
     flex-shrink: 0;
 }
 
-.event-description{
+.experience-description{
     margin: 10px;
     font-size: 18px;
     flex-shrink: 0;
 }
 
-.event-url{
+.experience-url{
     margin: 10px;
     font-size: 20px;
     text-decoration: none;
@@ -374,12 +335,13 @@ ul{
     font-size: 25px;
 }
 
-.event-elements{
+.experience-elements{
     font-size: 25px;
 }
-/* .form-email{
 
-} */
+/* /////////////////////////////////////////////////// */
+/* //////////////////   CONTACT   //////////////////// */
+/* /////////////////////////////////////////////////// */
 
 .contact{
     width: 99.65%;
@@ -410,7 +372,6 @@ ul{
 
     width:50px;
     height: 50px;
-    /* border: 1px solid black; */
     background-size: 50px 50px;
     align-self: center;
     margin-right: 20px;
@@ -449,7 +410,6 @@ ul{
     background-repeat: no-repeat;
     background-position-y: center;
     vertical-align: middle;
-    /* background-position-x: 35px; */
 }
 
 .contact-button{
@@ -473,12 +433,11 @@ ul{
 
 .contact-me{
     padding: 5px 20px 5px 25px;
-    /* background-image: url('images/envelope.svg');
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 35px; */
 }
+
+/* /////////////////////////////////////////////////// */
+/* //////////////////   FOOTER   //////////////////// */
+/* /////////////////////////////////////////////////// */
 
 .footer{
     display: flex;
@@ -495,4 +454,3 @@ ul{
     border-radius: 10px;
     border-style: solid;
 }
-
