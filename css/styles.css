@@ -102,7 +102,10 @@ ul{
 {
     height:500px;
     width:100%;
-    background-color: #292929e0;
+    /* background-image:repeating-linear-gradient(to bottom right,#252525,#292929e0); */
+    background-image:repeating-linear-gradient(to bottom right,#444444e0,black);
+    background-repeat: no-repeat;
+    /* background-color: #292929e0; */
     
     /* width:99.6%;
     border-color: #121212;
@@ -165,7 +168,11 @@ ul{
 }
 
 .portfolio{
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    /* background-image:linear-gradient(to bottom right, rgb(104, 104, 104),#f0f0f0); */
+    background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
+    background-repeat: no-repeat;
+
     width: 99.65%;
     border-color: #000000;
     /* border-width: 1px; */
@@ -199,7 +206,10 @@ ul{
     border-right: 10px solid red; */
     
     /* border-width: 1px; */
-    background-color: white;
+    /* background-color: white; */
+    background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
+    background-repeat: no-repeat;
+
     border-color: rgb(150, 150, 150);
     border-radius: 10px;
     border-style: solid;
@@ -255,7 +265,9 @@ ul{
 
 .events{
     width: 99.65%;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
+    background-repeat: no-repeat;
 
     border-color: #000000;
     border-radius: 10px;
