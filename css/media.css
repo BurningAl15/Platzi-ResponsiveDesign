@@ -3,25 +3,96 @@ Desktop first starts with the biggest media query
 */
 
 @media screen and (max-width:1024px){
-  body{
-      /* border: 10px solid red;  */
-    }
+  .hero
+  {
+      /* max-height:500px; */
+      max-width:100%;
+      background-image:repeating-linear-gradient(to bottom right,#444444e0,black);
+      background-repeat: no-repeat;
+   
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width:768px){
-  body{
-      /* border: 10px solid blue;  */
-    }
+  
+  .project-description{
+    font-family: Kalam;
+    font-size: .75em;
+  }
+
+  .project-Details{
+    max-width:500px;
+    margin: 10px 20px;
+    font-size: .75em;
+  }
+
+  .experience-image-container{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+
+    background-image:radial-gradient(rgb(70, 70, 70),#363636);
+    background-repeat: no-repeat;
+
+    max-width: 700px;
+    margin:10px;
+    padding:20px;
+
+    border-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+  }
+
+  .experience{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    justify-content: space-around;
+
+    padding:10px;
+    margin:25px;
+    margin-bottom: 30px;
+
+    max-width: 800px;
+    max-height: 800px;
+
+    background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
+    background-repeat: no-repeat;
+
+    border-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+  }
+
+
+  .experience ol{
+    margin-left: 15px;
+    padding:15px;
+    list-style: decimal;
+  }
 }
 
 @media screen and (max-width:480px){
-  body{
-      /* border: 10px solid green;  */
-    }
+  .project-Details{
+    max-width:500px;
+    margin: 10px 20px;
+    font-size: .5em;
+  }
+
+  .project-description{
+      font-family: Kalam;
+      font-size: 15px;
+  }
 }
 
 @media screen and (max-width:320px){
-  body{
-      /* border: 10px solid gray;  */
-    }
+  .project-description{
+    font-family: Kalam;
+    font-size: 20px;
+  }
 }

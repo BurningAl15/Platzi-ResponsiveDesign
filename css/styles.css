@@ -49,6 +49,7 @@ ul{
 
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-menu{
@@ -100,7 +101,7 @@ ul{
 
 .hero
 {
-    max-height:500px;
+    /* max-height:500px; */
     max-width:100%;
     background-image:repeating-linear-gradient(to bottom right,#444444e0,black);
     background-repeat: no-repeat;
@@ -108,6 +109,7 @@ ul{
     display: flex;
     align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-description{
@@ -121,6 +123,13 @@ ul{
     max-width: inherit;
     align-self: center;
     justify-content:flex-end;
+
+    /* background-image:radial-gradient(#444444e0,#4A4A4A);
+    background-repeat: no-repeat;
+
+    border-color: #121212;
+    border-radius: 50%;
+    border-style: solid; */
 }
 
 .hero-image{
@@ -129,13 +138,10 @@ ul{
     max-width: 350px;
     max-height: 350px;
 
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin:50px;
 
     border-color: #121212;
-    border-radius: 10px;
+    border-radius: 50%;
     border-style: solid;
 }
 
@@ -184,6 +190,7 @@ ul{
 
 .project-description{
     font-family: Kalam;
+    /* list-style: decimal; */
 }
 
 .project-title{
@@ -301,6 +308,10 @@ ul{
 .experience-image{
     width: 220px;
     height: 220px;
+
+    padding-right:20px;
+    padding-left:20px;
+
     object-fit: fill;
     flex-shrink: 0;
 }
@@ -308,6 +319,8 @@ ul{
 .experience-image-Inart{
     width: 120px;
     height: 220px;
+    object-fit: fill;
+    flex-shrink: 0;
 }
 
 .experience-subtitle{
