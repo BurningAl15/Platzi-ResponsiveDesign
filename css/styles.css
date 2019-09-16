@@ -73,8 +73,8 @@ ul{
 .navBar{
     display:flex;
 
-    height: 100px;
-    width: 100%;
+    max-height: 100px;
+    max-width: 100%;
     flex-wrap:wrap;
     justify-content: flex-end;
     align-content: center;
@@ -83,11 +83,9 @@ ul{
 .header-link{
     color:white;
     text-decoration: none;
-    /* max-width: 100px;
-    max-height: 50px; */
 
-    width: 100px;
-    height: 50px;
+    max-width: 100px;
+    max-height: 50px;
 
     flex-shrink: 0;
     font-size: 40px;
@@ -102,14 +100,14 @@ ul{
 
 .hero
 {
-    height:500px;
-    width:100%;
+    max-height:500px;
+    max-width:100%;
     background-image:repeating-linear-gradient(to bottom right,#444444e0,black);
     background-repeat: no-repeat;
  
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .hero-description{
@@ -119,20 +117,23 @@ ul{
 
 .hero-image-container{
     display: flex;
-    height: inherit;
-    width: inherit;
-
+    max-height: inherit;
+    max-width: inherit;
+    align-self: center;
     justify-content:flex-end;
 }
 
 .hero-image{
     flex-shrink: 0;
 
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
 
+    margin-left: 25px;
     margin-right: 25px;
-    margin-top: 75px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
     border-color: #121212;
     border-radius: 10px;
     border-style: solid;
@@ -146,7 +147,7 @@ ul{
     background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
     background-repeat: no-repeat;
 
-    width: 99.65%;
+    max-width: 99.65%;
     border-color: #000000;
     border-radius: 10px;
     border-style: solid;
@@ -198,7 +199,7 @@ ul{
 }
 
 .project-Details{
-    width:500px;
+    max-width:500px;
     margin: 10px 20px;
     font-size: 25px;
 }
@@ -220,15 +221,15 @@ ul{
 }
 
 #lazy-love{
-    width:200px;
-    height: 350px;
+    max-width:200px;
+    max-height: 350px;
 }
 
 /* ////////////////////////////////////////////////// */
 /* /////////////////   EXPERIENCE   ///////////////// */
 /* ////////////////////////////////////////////////// */
 .experiences{
-    width: 99.65%;
+    max-width: 99.65%;
     background-image:radial-gradient(#f0f0f0,rgb(119, 119, 119));
     background-repeat: no-repeat;
 
@@ -263,8 +264,8 @@ ul{
     margin:50px;
     margin-bottom: 30px;
 
-    width: 400px;
-    height: 600px;
+    max-width: 400px;
+    max-height: 600px;
 
     background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
     background-repeat: no-repeat;
@@ -344,7 +345,7 @@ ul{
 /* /////////////////////////////////////////////////// */
 
 .contact{
-    width: 99.65%;
+    max-width: 99.65%;
     background-color: #323232;
     color:white;
 
@@ -360,7 +361,7 @@ ul{
 .contact-social{
     display: flex;
     align-content: center;
-
+    max-width: 25%;
 }
 
 .contact-title{
@@ -369,7 +370,6 @@ ul{
 }
 
 .contact-social-link{
-
     width:50px;
     height: 50px;
     background-size: 50px 50px;
@@ -401,8 +401,8 @@ ul{
     padding: 5px 20px 5px 25px;
     
     margin: 15px;
-    width: 250px;
-    height: 25px;
+    max-width: 250px;
+    max-height: 25px;
     font-family: 'Kalam',cursive;
     
     background-image: url('../images/envelope.svg');
@@ -417,12 +417,12 @@ ul{
     background:transparent;
     color:white;
 
-    padding: 6px 0;
+    padding: 6px 20px;
     border-radius: 5px;
     
     margin-top: 5px;
     margin:0px 15px 10px;
-    width: 100px;
+    max-width: 100px;
 
     font-family: 'Kalam';
 }
@@ -442,13 +442,15 @@ ul{
 .footer{
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-evenly;
+   
     background-color: #252525;
     color:white;
     font-size: 25px;
-    width: 99.65%;
-    height: 100px;
+    max-width: 99.65%;
+    max-height: 100px;
+    padding-top:50px;
+    padding-bottom:50px;
 
     border-color: #000000;
     border-radius: 10px;
