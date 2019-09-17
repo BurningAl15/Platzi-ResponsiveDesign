@@ -124,11 +124,11 @@ Desktop first starts with the biggest media query
 
 @media screen and (max-width:768px){
 
-  .project-Details{
+  /* .project-Details{
     max-width:500px;
     margin: 10px 20px;
     font-size: .75em;
-  }
+  } */
 
   .project-description{
     font-family: Kalam;
