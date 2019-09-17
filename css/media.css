@@ -110,7 +110,39 @@ Desktop first starts with the biggest media query
   }
 }
 
+@media screen and (max-width:1312px) and (min-width:1023px){
+  .hero
+  {
+      justify-content: center;
+  }
+}
+
 @media screen and (max-width:1023px){
+
+  .header{
+    display:block;
+    height:auto;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .header-menu{
+    display:block;
+  }
+
+  .header-logo{
+    text-align: center;
+  }
+
+  .header-element{
+    /* display:initial; */
+    display:block;
+    text-align: center;
+  }
+  .header-link{
+    font-size: 70px;
+    padding: 25px;
+  }
 
   .project{
     width: 60%;
