@@ -2,6 +2,7 @@ body{
     background-color:#757575;
     font-family: 'Amatic SC',cursive;
     margin: 0;
+    width: 100%;
 }
 
 h1
@@ -43,25 +44,23 @@ ul{
 
 .header{
     background-color: #252525;
-    max-height: 10%;
-
-    color:white;
-
+   
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    color:white; 
 }
 
 .header-menu{
     height: inherit;
-
 }
 
 .header-element{
     display:flex;
     flex-wrap: wrap;
+    flex-shrink: 0;
 
-    /* height: inherit; */
     height: 100%;
 
     align-items: center;
@@ -71,17 +70,21 @@ ul{
     margin-top: 10px;
     margin-bottom: 10px;
     height: 20%;
+    flex-shrink: 0;
 }
 
 .navBar{
-    display:flex;
-    flex-wrap: wrap;
-
-    max-height: 100px;
+    max-height: 10%;
+    height: inherit;
+    
     max-width: 100%;
-    flex-wrap:wrap;
-    justify-content: flex-end;
-    align-content: center;
+    width:100%;
+    display:inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+
+    color:white;
 }
 
 .header-link{
@@ -96,7 +99,6 @@ ul{
     margin: 10px;
     padding: 10px;
 }
-
 
 /* ///////////////////////////////////////////// */
 /* /////////////////   HERO   ////////////////// */

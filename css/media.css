@@ -103,14 +103,14 @@ Desktop first starts with the biggest media query
   }
 }
 
-@media screen and (max-width:1440px) and (min-width:1024px){
+@media screen and (max-width:1440px) and (min-width:1314px){
   .project{
     width: 60%;
     height: 80%;
   }
 }
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:1313px){
 
   .project{
     width: 60%;
@@ -131,7 +131,7 @@ Desktop first starts with the biggest media query
 
 @media screen and (max-width:768px){
 
-  .header{
+  .navBar{
     display:block;
     height:auto;
     justify-content: center;
