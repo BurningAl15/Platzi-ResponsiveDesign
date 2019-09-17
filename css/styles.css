@@ -10,7 +10,6 @@ h3
 h4
 h5
 h6{
-    font-family: 'Kalam',cursive;
     font-weight: normal;
 }
 
@@ -204,6 +203,8 @@ ul{
     flex-direction: column;
     flex-shrink: 0;
 
+    font-size: 50px;
+
     margin:10px;
     margin-bottom: 30px;
 
@@ -222,27 +223,27 @@ ul{
 
 .project-title{
     margin: 10px 20px;
-    font-size: 50px;
+    font-size: 1.25em;
 }
 
 .project-course{
     margin: 10px 20px;
-    font-size: 30px;
+    font-size: .65em;
 }
 
 .project-date{
     margin: 10px 20px;
-    font-size: 30px;
+    font-size: .65em;
 }
 
 .project-description{
     margin: 10px 20px;
-    font-family: Kalam;
+    font-family: "Indie Flower";
 }
 
 .project-description-line{
     margin: 10px 20px;
-    font-size: 20px;
+    font-size: .4em;
 }
 
 .project-image-container{
@@ -310,9 +311,7 @@ ul{
     justify-content: space-evenly;
 
     padding:10px;
-    /* margin:50px; */
     margin:10px;
-
     margin-bottom: 30px;
 
     max-width: 70%;
@@ -320,6 +319,8 @@ ul{
 
     width: 500px;
     height: 800px;
+
+    font-size: 40px;
 
     background-image:linear-gradient(rgb(182, 182, 182),#f0f0f0);
     background-repeat: no-repeat;
@@ -374,32 +375,33 @@ ul{
 
 .experience-subtitle{
     margin: 10px;
-    font-size: 35px;
+    font-size: 1em;
     flex-shrink: 0;
     color:blue;
 }
 
 .experience-position{
     margin: 10px;
-    font-size: 30px;
+    font-size: .75em;
     flex-shrink: 0;
 }
 
 .experience-description{
     margin: 10px;
-    font-size: 18px;
+    font-size: .6em;
     flex-shrink: 0;
+    font-family: "Indie Flower";
 }
 
 .experience-url{
     margin: 10px;
     text-decoration: none;
     color:red;
-    font-size: 25px;
+    font-size: .6em;
 }
 
 .experience-elements{
-    font-size: 25px;
+    font-size: 1em;
     margin:20px;
 }
 
@@ -470,7 +472,8 @@ ul{
     margin: 15px;
     max-width: 250px;
     max-height: 25px;
-    font-family: 'Kalam',cursive;
+    font-family: "Indie Flower";
+    font-size: 20px;
     
     background-image: url('../images/envelope.svg');
     background-size: 20px 20px;

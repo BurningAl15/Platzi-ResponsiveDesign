@@ -4,36 +4,16 @@ Desktop first starts with the biggest media query
 
 @media screen and (max-width:2560px) and (min-width:1440px){
   .hero{
-    background-size: auto;
+    background-size: 100%;
   }
   /* /////////////////////////////////////////////// */
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
   .project{
-    width: 40%;
+    width: 35%;
     height: 80%;
-    /* height: 1000px; */
-  }
-
-  .project-title{
-    font-size: 50px;
-  }
-
-  .project-course{
-      font-size: 30px;
-  }
-
-  .project-date{
-      font-size: 30px;
-  }
-
-  .project-description{
-      font-family: Kalam;
-  }
-
-  .project-description-line{
-      font-size: 20px;
+    margin:3%;
   }
 
   /* ////////////////////////////////////////////////// */
@@ -41,65 +21,25 @@ Desktop first starts with the biggest media query
   /* ////////////////////////////////////////////////// */
 
   .experience{
-    width: 40%;
-    /* height: 100%; */
+    width: 35%;
     height: 1000px;
+    margin: 3%;
   }
 
   .experience-image-container{
     margin:15px;
     padding:50px;
 
-    border-color: #000000;
-    border-radius: 10px;
-    border-style: solid;
   }
 
   .experience-image{
     width: 300px;
     height: 300px;
-
-    padding-right:20px;
-    padding-left:20px;
-
-    object-fit: fill;
-    flex-shrink: 0;
   }
 
   .experience-image-Inart{
     width: 200px;
     height: 300px;
-    object-fit: fill;
-    flex-shrink: 0;
-  }
-
-  .experience-subtitle{
-    margin: 10px;
-    flex-shrink: 0;
-    
-    font-size: 50px;
-    color:blue;
-  }
-
-  .experience-position{
-      margin: 10px;
-      flex-shrink: 0;
-
-      font-size: 40px;
-  }
-
-  .experience-description{
-      margin: 10px;
-      flex-shrink: 0;
-  }
-
-  .experience-elements{
-    font-family: 'Indie Flower';
-    font-size: 30px;
-  }
-
-  .experience-url{
-    font-size: 30px;
   }
 }
 
@@ -145,15 +85,16 @@ Desktop first starts with the biggest media query
   }
 
   .project{
-    width: 60%;
+    width: 70%;
     height: 80%;
+    font-size: 65px;
   }
   
   .experience{
-    width: 50%;
+    width: 70%;
     height: auto;
+    font-size: 65px;
   }
-
 
   .hero
   {
@@ -185,48 +126,35 @@ Desktop first starts with the biggest media query
     text-align: center;
   }
 
-  .project-description{
-    font-family: Kalam;
-    font-size: .75em;
+  /* ////////////////////////////////////////////////// */
+  /* /////////////////   EXPERIENCE   ///////////////// */
+  /* ////////////////////////////////////////////////// */
+
+  .project{
+    font-size: 70px;
   }
 
-  .project-description-line{
-    font-size: 20px;
-  } 
-
-  .experience-image-container{
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;
-
-    background-image:radial-gradient(rgb(70, 70, 70),#363636);
-    background-repeat: no-repeat;
-
-    max-width: 700px;
-    margin:10px;
-    padding:20px;
-
-    border-color: #000000;
-    border-radius: 10px;
-    border-style: solid;
-  }
+  /* ////////////////////////////////////////////////// */
+  /* /////////////////   EXPERIENCE   ///////////////// */
+  /* ////////////////////////////////////////////////// */
 
   .experience{
     padding:10px;
     margin:25px;
-    margin-bottom: 30px;
 
     max-width: 800px;
     max-height: 800px;
 
     background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
-    background-repeat: no-repeat;
 
-    border-color: #000000;
-    border-radius: 10px;
-    border-style: solid;
+    font-size: 60px;
   }
 
+  .experience-image-container{
+    justify-content: center;
+
+    max-width: 700px;
+  }
 
   .experience ol{
     margin-left: 15px;
@@ -236,40 +164,22 @@ Desktop first starts with the biggest media query
 }
 
 @media screen and (max-width:480px){
+  .project{
+    font-size: 70px;
+  }
+
   .project-Details{
     max-width:500px;
     margin: 10px 20px;
-    font-size: .5em;
-  }
-
-  .project-description{
-      font-family: Kalam;
-      font-size: 15px;
-  }
-
-  .project{
-    width: 80%;
-    height: 80%;
-  }
-
-  .project-description-line{
-    font-size: 15px;
+    /* font-size: .5em; */
   }
 }
 
 @media screen and (max-width:320px){
-  /* .project-Details{
-    max-width:500px;
-    margin: 10px 20px;
-    font-size: .5em;
+  .project{
+    font-size: 80px;
   }
-
-  .project-description{
-    font-family: Kalam;
-    font-size: 20px;
-  } */
-
-  .project-description-line{
-    font-size: 10px;
+  .experience{
+    font-size: 80px;
   }
 }
