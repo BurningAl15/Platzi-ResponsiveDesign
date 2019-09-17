@@ -2,18 +2,24 @@
 Desktop first starts with the biggest media query
 */
 
-@media screen and (max-width:2560px) and (min-width:1440px){
+@media screen and (max-width:2560px) and (min-width:1920px){
+  /* //////////////////////////////////////////// */
+  /* /////////////////   HERO   ///////////////// */
+  /* //////////////////////////////////////////// */
+
   .hero{
     background-size: 100%;
   }
+
   /* /////////////////////////////////////////////// */
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
   .project{
-    width: 35%;
-    height: 80%;
-    margin:3%;
+    width: 30%;
+    height: 70%;
+    margin:5%;
+    font-size: 40px;
   }
 
   /* ////////////////////////////////////////////////// */
@@ -21,15 +27,15 @@ Desktop first starts with the biggest media query
   /* ////////////////////////////////////////////////// */
 
   .experience{
-    width: 35%;
-    height: 1000px;
-    margin: 3%;
+    width: 30%;
+    height: 900px;
+    margin: 5%;
+    font-size: 40px;
   }
 
   .experience-image-container{
     margin:15px;
     padding:50px;
-
   }
 
   .experience-image{
@@ -41,23 +47,97 @@ Desktop first starts with the biggest media query
     width: 200px;
     height: 300px;
   }
+
+
+  .contact-social{
+    max-width:30%;
+    width:40%;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
-@media screen and (max-width:1440px) and (min-width:1024px){
+@media screen and (max-width:1919px) and (min-width:1440px){
+  /* //////////////////////////////////////////// */
+  /* /////////////////   HERO   ///////////////// */
+  /* //////////////////////////////////////////// */
+
+  .hero{
+    background-size: 100%;
+  }
+
+  /* /////////////////////////////////////////////// */
+  /* /////////////////   PROJECT   ///////////////// */
+  /* /////////////////////////////////////////////// */
+
+  .project{
+    width: 35%;
+    height: 70%;
+    margin:5%;
+    font-size: 40px;
+  }
+
+  /* ////////////////////////////////////////////////// */
+  /* /////////////////   EXPERIENCE   ///////////////// */
+  /* ////////////////////////////////////////////////// */
+
+  .experience{
+    width: 40%;
+    height: 900px;
+    margin: 3%;
+    font-size: 40px;
+  }
+
+  .experience-image-container{
+    margin:15px;
+    padding:50px;
+  }
+
+  .experience-image{
+    width: 300px;
+    height: 300px;
+  }
+
+  .experience-image-Inart{
+    width: 200px;
+    height: 300px;
+  }
+
+
+  .contact-social{
+    max-width:30%;
+    width:40%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width:1439px) and (min-width:1024px){
   .project{
     width: 60%;
     height: 80%;
   }
+
+  .contact-social{
+    max-width:30%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-@media screen and (max-width:1312px) and (min-width:1023px){
+@media screen and (max-width:1312px) and (min-width:1025px){
   .hero
   {
       justify-content: center;
   }
 }
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:1024px){
+
+  /* ////////////////////////////////////////////// */
+  /* /////////////////   HEADER   ///////////////// */
+  /* ////////////////////////////////////////////// */
 
   .header{
     display:block;
@@ -79,10 +159,24 @@ Desktop first starts with the biggest media query
     display:block;
     text-align: center;
   }
+
   .header-link{
     font-size: 70px;
     padding: 25px;
   }
+
+  /* //////////////////////////////////////////// */
+  /* /////////////////   HERO   ///////////////// */
+  /* //////////////////////////////////////////// */
+
+  .hero{
+    justify-content: center;
+    background-color: #0F1C24;
+  }
+
+  /* /////////////////////////////////////////////// */
+  /* /////////////////   PROJECT   ///////////////// */
+  /* /////////////////////////////////////////////// */
 
   .project{
     width: 70%;
@@ -90,20 +184,58 @@ Desktop first starts with the biggest media query
     font-size: 65px;
   }
   
+  /* ////////////////////////////////////////////////// */
+  /* /////////////////   EXPERIENCE   ///////////////// */
+  /* ////////////////////////////////////////////////// */
+
   .experience{
     width: 70%;
     height: auto;
     font-size: 65px;
   }
 
-  .hero
-  {
-      justify-content: center;
-      background-color: #0F1C24;
+  /* /////////////////////////////////////////////// */
+  /* /////////////////   CONTACT   ///////////////// */
+  /* /////////////////////////////////////////////// */
+
+  .contact-container{
+    display:block;
+    height:auto;
+    justify-content: center;
+  }
+
+  .contact-title{
+    text-align: center;
+  }
+
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .contact-social{
+    max-width:100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* /////////////////////////////////////////////// */
+  /* /////////////////   CONTACT   ///////////////// */
+  /* /////////////////////////////////////////////// */
+  .footer{
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width:768px){
+
+  /* ////////////////////////////////////////////// */
+  /* /////////////////   HEADER   ///////////////// */
+  /* ////////////////////////////////////////////// */
 
   .header{
     display:block;
@@ -126,9 +258,9 @@ Desktop first starts with the biggest media query
     text-align: center;
   }
 
-  /* ////////////////////////////////////////////////// */
-  /* /////////////////   EXPERIENCE   ///////////////// */
-  /* ////////////////////////////////////////////////// */
+  /* /////////////////////////////////////////////// */
+  /* /////////////////   PROJECT   ///////////////// */
+  /* /////////////////////////////////////////////// */
 
   .project{
     font-size: 70px;
