@@ -4,7 +4,7 @@ Desktop first starts with the biggest media query
 
 @media screen and (max-width:2560px) and (min-width:1440px){
   .hero{
-    background-size: 100%;
+    background-size: auto;
   }
   /* /////////////////////////////////////////////// */
   /* /////////////////   PROJECT   ///////////////// */
@@ -151,13 +151,14 @@ Desktop first starts with the biggest media query
   
   .experience{
     width: 50%;
-    height: 100%;
+    height: auto;
   }
 
 
   .hero
   {
       justify-content: center;
+      background-color: #0F1C24;
   }
 }
 

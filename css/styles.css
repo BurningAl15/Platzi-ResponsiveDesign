@@ -54,7 +54,7 @@ ul{
 
 .header-menu{
     height: inherit;
-
+    align-self: center;
 }
 
 .header-element{
@@ -62,7 +62,7 @@ ul{
     flex-wrap: wrap;
 
     /* height: inherit; */
-    height: 100%;
+    height: auto;
 
     align-items: center;
 }
@@ -78,7 +78,7 @@ ul{
     flex-wrap: wrap;
 
     max-height: 100px;
-    max-width: 100%;
+    max-width: auto;
     flex-wrap:wrap;
     justify-content: flex-end;
     align-content: center;
@@ -105,7 +105,7 @@ ul{
 .hero
 {
     /* max-height:500px; */
-    max-width:100%;
+    max-width:auto;
 
     background-image: url("../images/firewatch-landscape-forest-minimalistic.jpg");
     background-attachment: fixed;
