@@ -2,7 +2,7 @@
 Desktop first starts with the biggest media query
 */
 
-@media screen and (max-width:2560px) and (min-width:1920px){
+@media screen and (max-width:2560px) and (min-width:1921px){
   /* //////////////////////////////////////////// */
   /* /////////////////   HERO   ///////////////// */
   /* //////////////////////////////////////////// */
@@ -57,7 +57,7 @@ Desktop first starts with the biggest media query
   }
 }
 
-@media screen and (max-width:1919px) and (min-width:1440px){
+@media screen and (max-width:1920px) and (min-width:1441px){
   /* //////////////////////////////////////////// */
   /* /////////////////   HERO   ///////////////// */
   /* //////////////////////////////////////////// */
@@ -112,9 +112,9 @@ Desktop first starts with the biggest media query
   }
 }
 
-@media screen and (max-width:1439px) and (min-width:1024px){
+@media screen and (max-width:1440px) and (min-width:1025px){
   .project{
-    width: 60%;
+    width: 40%;
     height: 80%;
   }
 
@@ -124,16 +124,15 @@ Desktop first starts with the biggest media query
     align-items: center;
     justify-content: center;
   }
-}
-
-@media screen and (max-width:1312px) and (min-width:1025px){
-  .hero
-  {
-      justify-content: center;
+  @media screen and (max-width:1312px) and (min-width:1025px){
+    .hero
+    {
+        justify-content: center;
+    }
   }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) and (min-width:769px){
 
   /* ////////////////////////////////////////////// */
   /* /////////////////   HEADER   ///////////////// */
@@ -179,7 +178,7 @@ Desktop first starts with the biggest media query
   /* /////////////////////////////////////////////// */
 
   .project{
-    width: 70%;
+    width: 55%;
     height: 80%;
     font-size: 65px;
   }
@@ -189,9 +188,9 @@ Desktop first starts with the biggest media query
   /* ////////////////////////////////////////////////// */
 
   .experience{
-    width: 70%;
+    width: 55%;
     height: auto;
-    font-size: 65px;
+    font-size: 60px;
   }
 
   /* /////////////////////////////////////////////// */
@@ -263,6 +262,8 @@ Desktop first starts with the biggest media query
   /* /////////////////////////////////////////////// */
 
   .project{
+    width: 70%;
+    height: auto;
     font-size: 70px;
   }
 
