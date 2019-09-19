@@ -1,3 +1,4 @@
+
 body{
     background-color:#757575;
     font-family: 'Amatic SC',cursive;
@@ -54,6 +55,17 @@ ul{
 .header-menu{
     height: inherit;
     align-self: center;
+}
+
+.burger-button{
+    width:40px;
+    height:40px;
+    font-size: 40px;
+    border-radius:50%;
+    background-color:red;
+    border-style: solid;
+
+    display:block;
 }
 
 .header-element{
@@ -450,12 +462,18 @@ ul{
 }
 
 .contact-social-link{
-    width:50px;
-    height: 50px;
-    background-size: 50px 50px;
+    width:60px;
+    height: 60px;
+    /* background-size: 60px 60px; */
     align-self: center;
-    margin: 10px;
+    margin: 15px;
+    margin-left: 20px;
+    margin-right:20px;
     flex-wrap: wrap;
+    font-size: 45px;
+    color:white;
+
+    text-decoration: none;
 }
 
 .twitter{
