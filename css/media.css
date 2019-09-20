@@ -134,6 +134,24 @@ Desktop first starts with the biggest media query
 
 @media screen and (max-width:1024px) and (min-width:769px){
 
+  .burger-button{
+    display:block;
+  }
+
+  .header-menu{
+    position:fixed;
+    background:rgba(0,0,0,.4);
+    z-index:3;
+    top:0;
+    bottom:0;
+    left:-100vw;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.3s;
+  }
+
   /* ////////////////////////////////////////////// */
   /* /////////////////   HEADER   ///////////////// */
   /* ////////////////////////////////////////////// */
@@ -145,16 +163,15 @@ Desktop first starts with the biggest media query
     /* align-items: center; */
   }
 
-  .header-menu{
+  /* .header-menu{
     display:block;
-  }
+  } */
 
   .header-logo{
     text-align: center;
   }
 
   .header-element{
-    /* display:initial; */
     display:block;
     text-align: center;
   }

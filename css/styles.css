@@ -57,15 +57,30 @@ ul{
     align-self: center;
 }
 
+.header-menu.is-active{
+    left:0;
+}
+
 .burger-button{
-    width:40px;
-    height:40px;
+    width:60px;
+    height:60px;
     font-size: 40px;
     border-radius:50%;
-    background-color:red;
+    background-color:rgba(0, 0, 0, 0.349);
     border-style: solid;
 
-    display:block;
+    padding:10px;
+
+    /* display:block; */
+    display:none;
+    line-height: 40px;
+    text-align: center;
+    position:fixed;
+    z-index:4;
+    left:5px;
+    top:5px;
+    color:white;
+    font-size: 50px;
 }
 
 .header-element{
@@ -268,7 +283,7 @@ ul{
 .project-image-container{
     display: flex;
     flex-wrap: wrap;
-    
+
     justify-content: center;
     flex-shrink: 0;
 
@@ -299,7 +314,6 @@ ul{
     border-color: #000000;
     border-radius: 10px;
     border-style: solid;
-    
 }
 
 .experience-title{
@@ -466,14 +480,16 @@ ul{
     height: 60px;
     /* background-size: 60px 60px; */
     align-self: center;
+    /* justify-self:center; */
     margin: 15px;
     margin-left: 20px;
     margin-right:20px;
     flex-wrap: wrap;
-    font-size: 45px;
+    font-size: 55px;
     color:white;
 
     text-decoration: none;
+    text-align: center;
 }
 
 .twitter{
