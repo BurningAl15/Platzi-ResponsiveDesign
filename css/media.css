@@ -2,12 +2,12 @@
 Desktop first starts with the biggest media query
 */
 
-@media screen and (max-width:2560px) and (min-width:1921px){
+@media screen and (max-width: 2560px) and (min-width: 1921px) {
   /* //////////////////////////////////////////// */
   /* /////////////////   HERO   ///////////////// */
   /* //////////////////////////////////////////// */
 
-  .hero{
+  .hero {
     background-size: 100%;
   }
 
@@ -15,10 +15,10 @@ Desktop first starts with the biggest media query
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
-  .project{
+  .project {
     width: 30%;
     height: 70%;
-    margin:5%;
+    margin: 5%;
     font-size: 40px;
   }
 
@@ -26,43 +26,42 @@ Desktop first starts with the biggest media query
   /* /////////////////   EXPERIENCE   ///////////////// */
   /* ////////////////////////////////////////////////// */
 
-  .experience{
+  .experience {
     width: 30%;
     height: 900px;
     margin: 5%;
     font-size: 40px;
   }
 
-  .experience-image-container{
-    margin:15px;
-    padding:50px;
+  .experience-image-container {
+    margin: 15px;
+    padding: 50px;
   }
 
-  .experience-image{
+  .experience-image {
     width: 300px;
     height: 300px;
   }
 
-  .experience-image-Inart{
+  .experience-image-Inart {
     width: 200px;
     height: 300px;
   }
 
-
-  .contact-social{
-    max-width:30%;
-    width:40%;
+  .contact-social {
+    max-width: 30%;
+    width: 40%;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-@media screen and (max-width:1920px) and (min-width:1441px){
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
   /* //////////////////////////////////////////// */
   /* /////////////////   HERO   ///////////////// */
   /* //////////////////////////////////////////// */
 
-  .hero{
+  .hero {
     background-size: 100%;
   }
 
@@ -70,10 +69,10 @@ Desktop first starts with the biggest media query
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
-  .project{
+  .project {
     width: 35%;
     height: 70%;
-    margin:5%;
+    margin: 5%;
     font-size: 40px;
   }
 
@@ -81,84 +80,81 @@ Desktop first starts with the biggest media query
   /* /////////////////   EXPERIENCE   ///////////////// */
   /* ////////////////////////////////////////////////// */
 
-  .experience{
+  .experience {
     width: 40%;
     height: 900px;
     margin: 3%;
     font-size: 40px;
   }
 
-  .experience-image-container{
-    margin:15px;
-    padding:50px;
+  .experience-image-container {
+    margin: 15px;
+    padding: 50px;
   }
 
-  .experience-image{
+  .experience-image {
     width: 300px;
     height: 300px;
   }
 
-  .experience-image-Inart{
+  .experience-image-Inart {
     width: 200px;
     height: 300px;
   }
 
-
-  .contact-social{
-    max-width:30%;
-    width:40%;
+  .contact-social {
+    max-width: 30%;
+    width: 40%;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-@media screen and (max-width:1440px) and (min-width:1025px){
-  .project{
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .project {
     width: 40%;
     height: 80%;
   }
 
-  .contact-social{
-    max-width:30%;
-    width:100%;
+  .contact-social {
+    max-width: 30%;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
-  @media screen and (max-width:1312px) and (min-width:1025px){
-    .hero
-    {
-        justify-content: center;
+  @media screen and (max-width: 1312px) and (min-width: 1025px) {
+    .hero {
+      justify-content: center;
     }
   }
 }
 
-@media screen and (max-width:1024px) and (min-width:769px){
-
-  .burger-button{
-    display:block;
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .burger-button {
+    display: block;
   }
 
-  .header-menu{
-    position:fixed;
-    background:rgba(0,0,0,.75);
-    z-index:3;
-    top:0;
-    bottom:0;
-    left:-100vw;
-    width:100vw;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:.3f;
+  .header-menu {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3f;
   }
 
   /* ////////////////////////////////////////////// */
   /* /////////////////   HEADER   ///////////////// */
   /* ////////////////////////////////////////////// */
 
-  .header{
-    display:block;
-    height:auto;
+  .header {
+    display: block;
+    height: auto;
     justify-content: center;
     /* align-items: center; */
   }
@@ -167,16 +163,16 @@ Desktop first starts with the biggest media query
     display:block;
   } */
 
-  .header-logo{
+  .header-logo {
     text-align: center;
   }
 
-  .header-element{
-    display:block;
+  .header-element {
+    display: block;
     text-align: center;
   }
 
-  .header-link{
+  .header-link {
     font-size: 70px;
     padding: 25px;
   }
@@ -185,26 +181,26 @@ Desktop first starts with the biggest media query
   /* /////////////////   HERO   ///////////////// */
   /* //////////////////////////////////////////// */
 
-  .hero{
+  .hero {
     justify-content: center;
-    background-color: #0F1C24;
+    background-color: #0f1c24;
   }
 
   /* /////////////////////////////////////////////// */
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
-  .project{
+  .project {
     width: 55%;
     height: 80%;
     font-size: 65px;
   }
-  
+
   /* ////////////////////////////////////////////////// */
   /* /////////////////   EXPERIENCE   ///////////////// */
   /* ////////////////////////////////////////////////// */
 
-  .experience{
+  .experience {
     width: 55%;
     height: auto;
     font-size: 60px;
@@ -214,27 +210,27 @@ Desktop first starts with the biggest media query
   /* /////////////////   CONTACT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
-  .contact-container{
-    display:block;
-    height:auto;
+  .contact-container {
+    display: block;
+    height: auto;
     justify-content: center;
   }
 
-  .contact-title{
+  .contact-title {
     text-align: center;
   }
 
-  .contact-me{
+  .contact-me {
     display: flex;
     flex-direction: column;
 
-    align-items:center;
+    align-items: center;
     justify-content: center;
   }
-  
-  .contact-social{
-    max-width:100%;
-    width:100%;
+
+  .contact-social {
+    max-width: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -242,35 +238,34 @@ Desktop first starts with the biggest media query
   /* /////////////////////////////////////////////// */
   /* /////////////////   CONTACT   ///////////////// */
   /* /////////////////////////////////////////////// */
-  .footer{
+  .footer {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width:768px){
-
+@media screen and (max-width: 768px) {
   /* ////////////////////////////////////////////// */
   /* /////////////////   HEADER   ///////////////// */
   /* ////////////////////////////////////////////// */
 
-  .header{
-    display:block;
-    height:auto;
+  .header {
+    display: block;
+    height: auto;
     justify-content: center;
     /* align-items: center; */
   }
 
-  .header-menu{
-    display:block;
+  .header-menu {
+    display: block;
   }
 
-  .header-logo{
+  .header-logo {
     text-align: center;
   }
 
-  .header-element{
+  .header-element {
     /* display:initial; */
-    display:block;
+    display: block;
     text-align: center;
   }
 
@@ -278,7 +273,7 @@ Desktop first starts with the biggest media query
   /* /////////////////   PROJECT   ///////////////// */
   /* /////////////////////////////////////////////// */
 
-  .project{
+  .project {
     width: 70%;
     height: auto;
     font-size: 70px;
@@ -288,48 +283,48 @@ Desktop first starts with the biggest media query
   /* /////////////////   EXPERIENCE   ///////////////// */
   /* ////////////////////////////////////////////////// */
 
-  .experience{
-    padding:10px;
-    margin:25px;
+  .experience {
+    padding: 10px;
+    margin: 25px;
 
     max-width: 800px;
     max-height: 800px;
 
-    background-image:linear-gradient(rgb(218, 218, 218),#f0f0f0);
+    background-image: linear-gradient(rgb(218, 218, 218), #f0f0f0);
 
     font-size: 60px;
   }
 
-  .experience-image-container{
+  .experience-image-container {
     justify-content: center;
 
     max-width: 700px;
   }
 
-  .experience ol{
+  .experience ol {
     margin-left: 15px;
-    padding:15px;
+    padding: 15px;
     list-style: decimal;
   }
 }
 
-@media screen and (max-width:480px){
-  .project{
+@media screen and (max-width: 480px) {
+  .project {
     font-size: 70px;
   }
 
-  .project-Details{
-    max-width:500px;
+  .project-Details {
+    max-width: 500px;
     margin: 10px 20px;
     /* font-size: .5em; */
   }
 }
 
-@media screen and (max-width:320px){
-  .project{
+@media screen and (max-width: 320px) {
+  .project {
     font-size: 80px;
   }
-  .experience{
+  .experience {
     font-size: 80px;
   }
 }
