@@ -66,6 +66,9 @@ ul{
     height:60px;
     font-size: 40px;
     border-radius:50%;
+
+    background-image: url('../images/Menu.svg');
+
     background-color:rgba(0, 0, 0, 0.349);
     border-style: solid;
 
@@ -478,18 +481,26 @@ ul{
 .contact-social-link{
     width:60px;
     height: 60px;
-    /* background-size: 60px 60px; */
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
     align-self: center;
-    /* justify-self:center; */
     margin: 15px;
     margin-left: 20px;
     margin-right:20px;
     flex-wrap: wrap;
-    font-size: 55px;
+
+    position: relative;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+
+    /* justify-self:center; */
+    /* font-size: 55px;
     color:white;
 
     text-decoration: none;
-    text-align: center;
+    text-align: center; */
 }
 
 .twitter{
@@ -504,8 +515,16 @@ ul{
     background-image: url('../images/instagram.svg');
 }
 
+.whatsapp{
+    background-image: url('../images/whatsapp.svg');
+}
+
 .github{
     background-image: url('../images/github.svg');
+}
+
+.linkedin{
+    background-image:url('../images/linkedin.svg');
 }
 
 .contact-mail{

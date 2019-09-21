@@ -149,7 +149,7 @@ Desktop first starts with the biggest media query
     display:flex;
     align-items:center;
     justify-content:center;
-    transition:.3s;
+    transition:.3f;
   }
 
   /* ////////////////////////////////////////////// */
