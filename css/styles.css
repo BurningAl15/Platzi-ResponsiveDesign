@@ -190,7 +190,7 @@ ul {
 
 .portfolio {
   /* #f0f0f0 */
-  background-image: radial-gradient(rgb(255, 255, 255), #525252);
+  background-image: radial-gradient(rgb(194, 194, 194), #525252);
   background-repeat: no-repeat;
 
   max-width: 99.65%;
